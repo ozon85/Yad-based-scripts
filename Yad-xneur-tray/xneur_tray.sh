@@ -192,5 +192,5 @@ function SENDLAYOUT(){
 yad --notification --listen \
 --icon-size=256 \
 --command="bash -c on_click" \
---menu='перезапуск xneur!bash -c XNEURRESTART|Завершить xneur!bash -c XNEURCLOSE|xneurrc!bash -c Open_XNEURRC|Выход!bash -c QUITYAD' \
-<&3
+--menu='Restart xneur!bash -c XNEURRESTART|Kill xneur!bash -c XNEURCLOSE|xneurrc!bash -c Open_XNEURRC|Quit!bash -c QUITYAD' \
+<"$PIPE"
