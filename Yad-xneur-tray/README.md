@@ -1,1 +1,3 @@
-Descr
+This script provides a tray icon that shows the status and can start or terminate the [xneur](https://github.com/AndrewCrewKuznetsov/xneur-devel) console program. Can show the language layout. `YAD` is used here. The settings are edited manually. The script arose as a result of attempts to use `gxneur` and `kdeneur`, which for some reason fell in my system.
+
+Run the `check_requirements.sh` to check the dependencies (some dependencies may be skipped). Download the language icons from [xneur source](https://github.com/AndrewCrewKuznetsov/xneur-devel/tree/master/gxneur/pixmaps) if you want to display the current layout and uncomment the line `#SENDLAYOUT &;` in the main executable `xneur_tray.sh`
