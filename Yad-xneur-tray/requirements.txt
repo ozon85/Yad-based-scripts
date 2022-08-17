@@ -1,0 +1,19 @@
+#Main requirements:
+bash #not sh
+yad
+stdbuf
+
+#for xneur run, end:
+xdg-open
+pidof
+loginctl
+which
+
+#for language layouts:
+setxkbmap
+
+#for advanced icons search
+locate
+
+#for screen notify
+notify-send
