@@ -16,4 +16,5 @@ this is a dialog for creating and deleting snapshots. Can assign a default volum
 this is a dialog for enable to mount NTFS not in read only mode if partition contain dirty bytes.
 
 ### create ln dialog.sh
+when launched with parameters, the target selection dialog is not displayed. The symlink save dialog appears
 ![create ln dialog](https://user-images.githubusercontent.com/79962382/185190424-57c4d23f-8fa0-4bb2-b870-d7267f4dc66b.png)
